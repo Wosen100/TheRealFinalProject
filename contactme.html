@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/contactme.css">
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <nav>
+        <span class="nav__avatar">
+            <img src="assets/images/woman-female.svg" alt="woman head shot" class="nav__img">
+        </span>
+        <ul class="nav__list">
+            <li class="nav__item"><a href="/home.html">Home</a></li>
+            <li class="nav__item"><a href="/about.html">About</a></li>
+            <li class="nav__item"><a href="/contactme.html">Contact</a></li>
+            <li class="nav__item myworks"><a class="active" href="/Myworks.html">My Works</a></li>
+        </ul>
+    </nav>
+
+    <section class="main">
+
+        <div class="container">
+            <form>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <p><a href="mailto:someone@example.com">Or you can click here and Send an email. Thank you.</a></p>
+              <input type="submit" value="Submit">
+          
+            </form>
+    </div>
+    </section>
+    <section class="footer">
+        <p>Designed by Wosen😍</p>
+    </section>
+</body>
+</html>

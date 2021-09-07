@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap'); /*import google font*/
+
+:root {
+    --nav-height: 3em; /*create a variable to be used later*/
+    color: #12218f;
+}
+
+body {
+    background-image: url('../assets/images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -160px;
+    overflow-y: scroll; /*show the scroll bar*/
+
+}
+
+li {
+    list-style: none;
+}
+
+
+nav {
+    display: flex;
+    /* border: 1px solid red; */
+    height: var(--nav-height);/*use variabled that was defined above*/
+    padding: 0 4em;
+}
+
+.nav__list {
+    margin-left: auto
+}
+
+.nav__avatar {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.nav__item {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.nav__item > a {
+    color: unset;
+    text-decoration: none;
+}
+
+.nav__item.active > a  {
+    color:#3c7063
+}
+
+.nav__item a:hover {
+    border-bottom: 3px solid#6ead9e
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main {
+    /* background-color: teal; */
+    height: calc( 100vh - var(--nav-height));
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.address {
+    margin-top: -175px;
+}
+.address__salutation {
+    font-size: 140px;
+    font-style: italic;
+    font-family: 'Tangerine', cursive;
+}
+
+.address__message {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
