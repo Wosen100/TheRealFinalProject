@@ -6,8 +6,8 @@
 }
 
 body {
-    background-image: url('../assets/images/background-image.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../assets/images/background-image\ \(2\).jpg');
+    background-repeat: no-repeat; 
     background-size: 100%;
     background-position-y: -160px;
     overflow-y: scroll; /*show the scroll bar*/
@@ -89,5 +89,23 @@ nav {
 .footer {
     color: black;
     font-weight: bolder;
+    display: flex;
     font-size: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    background-image: linear-gradient(to top, #48b57a, transparent);
+    width: 100%;
+    bottom: 0;
 }
+
+
+/* social midia icons starts here   */
+
+
+  /* Add a hover effect if you want  */
+   [social-media]:hover {
+    opacity: 0.7;
+  } 
+  
+  
