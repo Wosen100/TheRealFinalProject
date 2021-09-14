@@ -92,11 +92,11 @@ nav {
     display: flex;
     font-size: 15px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 4em;
     position: absolute;
     background-image: linear-gradient(to top, #48b57a, transparent);
     width: 100%;
-    bottom: 0;
+    box-sizing: border-box;
 }
 
 
@@ -107,5 +107,10 @@ nav {
    [social-media]:hover {
     opacity: 0.7;
   } 
+
+  [social-media] {
+    display: flex;
+    gap: 15px;
+  }
   
   
