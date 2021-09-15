@@ -2,6 +2,7 @@
   display: flex;
   height: 60vh;
   padding: 5em 4em;
+  gap: 20px;
 }
 
 .about__left,
